@@ -1,4 +1,4 @@
 # simple-scrollreveal
-A simple and easy to use scroll review functionality to HTML elements, written in JavaScript
+An easy way to add scrollreveal effect to HTML elements, using pure CSS and JavaScript.
 
-https://codepen.io/Dibb/pen/yRrZej
+Demo: https://codepen.io/Dibb/pen/yRrZej
