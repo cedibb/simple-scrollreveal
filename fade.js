@@ -4,8 +4,6 @@ let fadeElements = document.querySelectorAll(".fade");
 
 window.addEventListener("scroll", () => {
   fadeElements.forEach(e => {
-    e.getBoundingClientRect().top < animationTrigger
-      ? e.classList.add("in")
-      : false;
+    if (e.getBoundingClientRect().top < animationTrigger) e.classList.add("in");
   });
 });
